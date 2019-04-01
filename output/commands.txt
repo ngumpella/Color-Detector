@@ -1,0 +1,16 @@
+java BlobDetection ../input/04_Circles.png -k 1 -r 0 -g 0 -b 255 -d 5 -o ../output/04_Circles_find_1_blue.png
+java BlobDetection ../input/04_Circles.png -k 5 -r 0 -g 0 -b 255 -d 5 -o ../output/04_Circles_find_5_blue.png
+java BlobDetection ../input/04_Circles.png -k 2 -r 255 -g 0 -b 0 -d 5 -o ../output/04_Circles_find_2_red.png
+java BlobDetection ../input/04_Circles.png -k 1 -r 255 -g 0 -b 0 -d 5 -o ../output/04_Circles_find_1_red.png
+java BlobDetection ../input/04_Circles.png -k 1 -r 0 -g 255 -b 0 -d 5 -o ../output/04_Circles_find_1_green.png
+java BlobDetection ../input/04_Circles.png -k 100 -r 0 -g 255 -b 0 -d 5 -o ../output/04_Circles_find_100_green.png
+java BlobDetection ../input/05_Spray.png -k 1 -r 255 -g 0 -b 0 -d 5 -o ../output/05_Spray_find_1_red.png
+java BlobDetection ../input/06_Toyblocks.jpg -k 1 -r 50 -g 50 -b 220 -d 5 -o ../output/06_Toyblocks_find_1_blue.jpg
+java BlobDetection ../input/08_Lego_dublo_arto_alanenpaa_5.jpg -k 100 -r 255 -g 0 -b 0 -d 5 -o ../output/08_Lego_dublo_arto_alanenpaa_5_find_100_red.jpg
+java BlobDetection ../input/08_Lego_dublo_arto_alanenpaa_5.jpg -k 1 -r 255 -g 0 -b 0 -d 5 -o ../output/08_Lego_dublo_arto_alanenpaa_5_find_1_red.jpg
+java BlobDetection ../input/07_Lego_train_layout_at_National_Train_Show_2005.jpg -k 1 -r 255 -g 10 -b 10 -d 10 -o ../output/07_Lego_train_layout_at_National_Train_Show_2005_find_1_red.jpg
+java BlobDetection ../input/09_Lego_Color_Bricks.jpg -k 1 -r 150 -g 150 -b 150 -d 2 -o ../output/09_Lego_Color_Bricks_find_1_grey.jpg
+java BlobDetection ../input/15_Amish_Dolls.jpg -k 1 -r 255 -g 200 -b 0 -d 10 -o ../output/15_Amish_Dolls_blob_find_1_pumpkin.png
+java BlobDetection ../input/15_Amish_Dolls.jpg -k 2 -r 255 -g 255 -b 255 -d 8 -o ../output/15_Amish_Dolls_blob_find_2_face.png
+java BlobDetection ../input/10_13-06-28-robocup-eindhoven-025.jpg -k 1 -r 255 -g 0 -b 0 -d 5 -o ../output/10_13-06-28-robocup-eindhoven-025_find_1_ball.jpg
+java BlobDetection ../input/10_13-06-28-robocup-eindhoven-025.jpg -k 1 -r 80 -g 165 -b 155 -d 1 -o ../output/10_13-06-28-robocup-eindhoven-025_find_1_robot_jersey.jpg
